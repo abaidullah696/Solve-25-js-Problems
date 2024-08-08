@@ -8,7 +8,7 @@ function union(arr1,arr2) {
 
 console.log(union([1,2,3,4],[2,3,4,5,6]))
 
-
+console.log(union([5,7,3,g,5],[2,3,4,5,6]))
 
 
 
