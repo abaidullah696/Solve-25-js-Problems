@@ -6,8 +6,6 @@ var sum = 0
 arr.forEach(function (element) {
     if (typeof element === 'number') {
         sum = sum + element;
-    } else {
-        
     }
 })
 

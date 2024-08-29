@@ -13,23 +13,14 @@ var arr = [
 var check = arr.filter(function(elem){
     return elem.gender === "male";
 })
-
-
-//for removing non male genders from object
-var count = 0;
+var count = 0;                          //for removing non male genders from object
 arr.forEach(function (elem) {
-    
-
 if (elem.gender !== "male") {
     count++
 } 
 })
-
-
-//tmam non mala object ko hatana ka tariqa
-for (var i = 0; i <= count; i++) {
-//1 obj ko hatana ka triqa
-for (var j = 0; j < arr.length; j++) { 
+for (var i = 0; i <= count; i++) {                  //tmam non mala object ko hatana ka tariqa
+for (var j = 0; j < arr.length; j++) {              //1 obj ko hatana ka triqa
     if (arr[j].gender !== "male") {
         arr.splice(j,1);
     } 

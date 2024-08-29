@@ -14,4 +14,4 @@ function occur(str) {
 }
 
 console.log(occur("Hello World"))
-console.log(occur("Something Else "))
+console.log(occur("Something Else"))
